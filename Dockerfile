@@ -18,3 +18,5 @@ RUN chown -R www-data:www-data /var/www/html
 
 # Expose port 80
 EXPOSE 80
+RUN chmod -R 755 /var/www/html
+RUN echo "DirectoryIndex index.php" >> /etc/apache2/conf-enabled/docker-php.conf
