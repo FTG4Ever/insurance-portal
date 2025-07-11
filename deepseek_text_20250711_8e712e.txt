@@ -1,0 +1,12 @@
+insurance-portal/
+├── admin/
+│   ├── auth.php
+│   ├── bulk_operations.php
+│   └── ...
+├── assets/
+│   ├── css/style.css
+│   └── ...
+├── config.php
+├── Dockerfile
+├── schema.sql
+└── index.php
